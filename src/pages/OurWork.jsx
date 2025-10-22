@@ -95,6 +95,16 @@ const OurWork = () => {
                     <span>Contact Forms</span>
                   </div>
                 </div>
+                <div className="portfolio-actions">
+                  <a 
+                    href="https://huasteco-landscaping.vercel.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="portfolio-visit-button"
+                  >
+                    Visit Site
+                  </a>
+                </div>
               </div>
             </motion.div>
 
@@ -138,6 +148,16 @@ const OurWork = () => {
                     <span>Mobile Responsive</span>
                   </div>
                 </div>
+                <div className="portfolio-actions">
+                  <a 
+                    href="https://jnhlandscaping.vercel.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="portfolio-visit-button"
+                  >
+                    Visit Site
+                  </a>
+                </div>
               </div>
             </motion.div>
 
@@ -180,6 +200,16 @@ const OurWork = () => {
                     <span className="portfolio-feature-icon">🌞</span>
                     <span>Window Tinting</span>
                   </div>
+                </div>
+                <div className="portfolio-actions">
+                  <a 
+                    href="https://sound-proof-customs.vercel.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="portfolio-visit-button"
+                  >
+                    Visit Site
+                  </a>
                 </div>
               </div>
             </motion.div>
