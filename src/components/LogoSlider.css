@@ -1,0 +1,107 @@
+/* Logo Slider Styles */
+.logo-slider-container {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 3rem 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-slider-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.slider-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.logo-slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logo-slider {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: fit-content;
+}
+
+.logo-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+}
+
+.logo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.business-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.business-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #374151;
+  text-align: center;
+  padding: 0 1rem;
+  white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logo-slider-container {
+    padding: 2rem 0;
+  }
+  
+  .slider-title {
+    font-size: 1.25rem;
+  }
+  
+  .logo-item {
+    min-width: 150px;
+    height: 50px;
+  }
+  
+  .business-name {
+    font-size: 0.8rem;
+  }
+  
+  .logo-slider {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-item {
+    min-width: 120px;
+    height: 45px;
+  }
+  
+  .business-name {
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
+  }
+  
+  .logo-slider {
+    gap: 1.5rem;
+  }
+}
