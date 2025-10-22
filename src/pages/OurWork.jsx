@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import huastecoWebsite from '../assets/Gallery/huastecowebsite.png';
 import jnhWebsite from '../assets/Gallery/JNHWebsite.png';
 import soundproofWebsite from '../assets/Gallery/SoundproofWebsite.png';
+import SEOHead from '../components/SEOHead';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Page.css';
 
@@ -34,6 +35,12 @@ const OurWork = () => {
 
   return (
     <>
+      <SEOHead 
+        title="Our Work - Professional Website Portfolio | Aviles Web Solutions"
+        description="See our portfolio of professional websites for home service businesses. View examples of landscaping, construction, and service company websites we've created with real results."
+        keywords="web design portfolio, professional websites, landscaping websites, construction websites, service company websites, website examples, our work, portfolio"
+        url="https://avileswebsolutions.com/our-work"
+      />
       {/* Hero Section */}
       <section className="portfolio-hero-section fade-in-section">
         <div className="section-container">
@@ -63,7 +70,7 @@ const OurWork = () => {
               viewport={{ once: true }}
             >
               <div className="portfolio-showcase-image">
-                <img src={huastecoWebsite} alt="Huasteco Landscaping Website" />
+                <img src={huastecoWebsite} alt="Huasteco Landscaping & Lawn Care - Professional landscaping company website with project gallery and contact forms" />
                 <div className="portfolio-overlay">
                   <div className="portfolio-overlay-content">
                     <h3>Huasteco Landscaping</h3>
@@ -116,7 +123,7 @@ const OurWork = () => {
               viewport={{ once: true }}
             >
               <div className="portfolio-showcase-image">
-                <img src={jnhWebsite} alt="JNH Construction Website" />
+                <img src={jnhWebsite} alt="JNH Architectural Landscaping - Professional landscaping company website with project gallery and contact forms" />
                 <div className="portfolio-overlay">
                   <div className="portfolio-overlay-content">
                     <h3>JNH Architectural Landscaping</h3>
@@ -169,7 +176,7 @@ const OurWork = () => {
               viewport={{ once: true }}
             >
               <div className="portfolio-showcase-image">
-                <img src={soundproofWebsite} alt="Soundproof Solutions Website" />
+                <img src={soundproofWebsite} alt="Soundproof Audio & Tint - Specialized car audio and window tinting solutions website with project gallery and contact forms" />
                 <div className="portfolio-overlay">
                   <div className="portfolio-overlay-content">
                     <h3>Soundproof Audio & Tint</h3>

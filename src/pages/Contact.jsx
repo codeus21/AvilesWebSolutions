@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import SEOHead from '../components/SEOHead';
 import './Contact.css';
 
 const Contact = () => {
@@ -70,6 +71,12 @@ const Contact = () => {
 
   return (
     <div className="page" id="contact">
+      <SEOHead 
+        title="Contact Aviles Web Solutions - Get Your Free Website Quote"
+        description="Ready to get your professional website? Contact Aviles Web Solutions for a free consultation and quote. Specializing in websites for home service professionals. Get started today!"
+        keywords="contact Aviles Web Solutions, free website quote, web design consultation, professional website services, get started, contact form"
+        url="https://avileswebsolutions.com/contact"
+      />
       {/* Hero Section */}
       <section className="contact-hero-section">
         <div className="contact-hero-content">

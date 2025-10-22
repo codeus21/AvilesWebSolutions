@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import aboutPageWorker from '../assets/AboutPageWorker.jpg';
+import SEOHead from '../components/SEOHead';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Page.css';
 
@@ -62,6 +63,12 @@ const About = () => {
 
   return (
     <>
+      <SEOHead 
+        title="About Aviles Web Solutions - Professional Web Design Team"
+        description="Learn about Aviles Web Solutions, a professional web design company specializing in websites for home service professionals. Discover our story, mission, and commitment to helping businesses grow online."
+        keywords="about Aviles Web Solutions, web design company, professional web developers, home service websites, team, mission, web design expertise"
+        url="https://avileswebsolutions.com/about"
+      />
       {/* Hero Section */}
       <section className="about-hero-section fade-in-section">
         <div className="section-container">

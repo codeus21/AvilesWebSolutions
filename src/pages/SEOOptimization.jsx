@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import SEOHead from '../components/SEOHead';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Page.css';
 
@@ -31,6 +32,12 @@ const SEOOptimization = () => {
 
   return (
     <>
+      <SEOHead 
+        title="SEO Optimization Services for Home Service Professionals | Aviles Web Solutions"
+        description="Get found by customers searching for your services. Our SEO optimization helps your website rank higher in search results, driving more qualified traffic and leads to your business."
+        keywords="SEO optimization, local SEO, search engine optimization, Google Business Profile, keyword optimization, local search ranking, home service SEO, landscaping SEO, HVAC SEO, contractor SEO"
+        url="https://avileswebsolutions.com/seo-optimization"
+      />
       {/* Hero Section */}
       <section className="service-hero-section fade-in-section">
         <div className="section-container">

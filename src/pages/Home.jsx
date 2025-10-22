@@ -7,6 +7,7 @@ import huastecoWebsite from '../assets/Gallery/huastecowebsite.png';
 import jnhWebsite from '../assets/Gallery/JNHWebsite.png';
 import soundproofWebsite from '../assets/Gallery/SoundproofWebsite.png';
 import LogoSlider from '../components/LogoSlider';
+import SEOHead from '../components/SEOHead';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Page.css';
 
@@ -81,6 +82,12 @@ const Home = () => {
 
   return (
     <>
+    <SEOHead 
+      title="Professional Web Design & Development Services | Aviles Web Solutions"
+      description="Get a professional website that generates real customers and leads. Specialized in web design for home service professionals. Free first month - no credit card required!"
+      keywords="web design, web development, professional websites, home service websites, SEO optimization, lead generation, local business websites, landscaping websites, HVAC websites, contractor websites"
+      url="https://avileswebsolutions.com/"
+    />
     <div 
       className="hero-section" 
       style={{ 
@@ -179,7 +186,7 @@ const Home = () => {
           <div className="portfolio-grid">
             <div className="portfolio-item fade-in-image">
               <div className="portfolio-image">
-                <img src={huastecoWebsite} alt="Huasteco Restaurant Website" />
+                <img src={huastecoWebsite} alt="Huasteco Landscaping & Lawn Care - Professional landscaping company website with project gallery and contact forms" />
               </div>
               <div className="portfolio-content">
                 <h3 className="portfolio-title">Huasteco Landscaping and Lawn Care</h3>
@@ -188,7 +195,7 @@ const Home = () => {
             </div>
             <div className="portfolio-item fade-in-image">
               <div className="portfolio-image">
-                <img src={jnhWebsite} alt="JNH Construction Website" />
+                <img src={jnhWebsite} alt="JNH Architectural Landscaping - Professional landscaping company website with project gallery and contact forms" />
               </div>
               <div className="portfolio-content">
                 <h3 className="portfolio-title">JNH Architectural Landscaping</h3>
@@ -197,7 +204,7 @@ const Home = () => {
             </div>
             <div className="portfolio-item fade-in-image">
               <div className="portfolio-image">
-                <img src={soundproofWebsite} alt="Soundproof Solutions Website" />
+                <img src={soundproofWebsite} alt="Soundproof Audio & Tint - Specialized car audio and window tinting solutions website with project gallery and contact forms" />
               </div>
               <div className="portfolio-content">
                 <h3 className="portfolio-title">Soundproof Audio and Tint</h3>

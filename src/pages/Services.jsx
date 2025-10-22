@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEOHead from '../components/SEOHead';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Services.css';
 
 const Services = () => {
   return (
     <div className="services-page">
+      <SEOHead 
+        title="Professional Web Design Services | Aviles Web Solutions"
+        description="Comprehensive web solutions for home service professionals. Custom web development, UI/UX design, SEO optimization, and lead generation services to grow your business online."
+        keywords="web design services, web development services, UI UX design, SEO optimization, lead generation, professional websites, home service websites, business websites"
+        url="https://avileswebsolutions.com/services"
+      />
       {/* Hero Section */}
       <section className="services-hero-section">
         <div className="services-hero-content">
