@@ -83,7 +83,7 @@ const Home = () => {
   return (
     <>
     <SEOHead 
-      title="Professional Web Design & Development Services | Aviles Web Solutions"
+      title="Aviles Web Solutions | Professional Web Design & Development Services"
       description="Get a professional website that generates real customers and leads. Specialized in web design for home service professionals. Free first month - no credit card required!"
       keywords="web design, web development, professional websites, home service websites, SEO optimization, lead generation, local business websites, landscaping websites, HVAC websites, contractor websites"
       url="https://avileswebsolutions.com/"
