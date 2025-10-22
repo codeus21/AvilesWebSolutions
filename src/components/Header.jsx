@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import logo from '../assets/Logo.png';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Header.css';
@@ -7,11 +7,10 @@ import './Header.css';
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-
-  // scrollToTop is now imported from utils
+  const navigate = useNavigate();
 
   const scrollToContact = () => {
-    window.location.href = '/contact';
+    navigate('/contact');
     scrollToTop();
   };
 
