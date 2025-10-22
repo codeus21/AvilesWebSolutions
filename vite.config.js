@@ -7,5 +7,10 @@ export default defineConfig({
   server: {
     host: true, // This allows access from any network interface
     port: 5173, // Default Vite port
+    historyApiFallback: true, // Enable fallback routing for SPA
+  },
+  preview: {
+    port: 4173,
+    strictPort: true,
   },
 })
