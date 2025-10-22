@@ -29,10 +29,10 @@ const Contact = () => {
     setSubmitStatus('');
     
     try {
-      // EmailJS configuration
-      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      // EmailJS configuration with fallbacks for production
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_on6sy2q';
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_avilesweb';
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'UqnYxg8Q_no7i-ynh';
       
       // Check if all required environment variables are set
       if (!serviceId || !templateId || !publicKey) {
