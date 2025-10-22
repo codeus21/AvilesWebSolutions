@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 import { scrollToTop } from '../utils/scrollToTop';
 import './Header.css';
 
@@ -28,9 +28,6 @@ const Header = () => {
     setIsServicesDropdownOpen(!isServicesDropdownOpen);
   };
 
-  const closeServicesDropdown = () => {
-    setIsServicesDropdownOpen(false);
-  };
 
   return (
     <header className="header">
