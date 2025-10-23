@@ -49,7 +49,7 @@ const Contact = () => {
         phone: formData.phone,
         business: formData.business,
         message: formData.message,
-        to_email: 'davidfrontweb@gmail.com'
+        to_email: 'contact@avileswebsolutions.com'
       }, publicKey);
 
       console.log('Email sent successfully:', result);
@@ -110,11 +110,11 @@ const Contact = () => {
               </p>
               
               <div className="contact-details">
-                <a href="mailto:davidfrontweb@gmail.com" className="contact-detail-item contact-detail-link">
+                <a href="mailto:contact@avileswebsolutions.com" className="contact-detail-item contact-detail-link">
                   <div className="contact-detail-icon">📧</div>
                   <div className="contact-detail-content">
                     <h3>Email</h3>
-                    <p>davidfrontweb@gmail.com</p>
+                    <p>contact@avileswebsolutions.com</p>
                   </div>
                 </a>
                 
@@ -228,7 +228,7 @@ const Contact = () => {
             <a href="tel:+14705263353" className="contact-cta-button primary">
               Call Now: (470) 526-3353
             </a>
-            <a href="mailto:davidfrontweb@gmail.com" className="contact-cta-button secondary">
+            <a href="mailto:contact@avileswebsolutions.com" className="contact-cta-button secondary">
               Email Us
             </a>
           </div>

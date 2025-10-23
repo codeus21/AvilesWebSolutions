@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-heading">Contact Info</h4>
           <div className="contact-info">
-            <p className="footer-text">Email: davidfrontweb@gmail.com</p>
+            <p className="footer-text">Email: contact@avileswebsolutions.com</p>
             <p className="footer-text">Phone: (470) 526-3353</p>
             <p className="footer-text">Located in: Douglasville, GA</p>
           </div>

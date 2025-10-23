@@ -138,7 +138,7 @@ npm run build
 
 ## 📞 Contact Information
 
-- **Email**: davidfrontweb@gmail.com
+- **Email**: contact@avileswebsolutions.com
 - **Phone**: (470) 526-3353
 - **Website**: [Aviles Web Solutions](https://avileswebsolutions.com)
 
