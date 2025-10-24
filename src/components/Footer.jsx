@@ -15,23 +15,25 @@ const Footer = () => {
         </div>
         
         <div className="footer-section">
-          <h4 className="footer-heading">Quick Links</h4>
+          <h4 className="footer-heading">Industries</h4>
           <ul className="footer-links">
-            <li><Link to="/" className="footer-link" onClick={scrollToTop}>Home</Link></li>
-            <li><Link to="/about" className="footer-link" onClick={scrollToTop}>About</Link></li>
-            <li><Link to="/our-work" className="footer-link" onClick={scrollToTop}>Our Work</Link></li>
-            <li><Link to="/services" className="footer-link" onClick={scrollToTop}>Services</Link></li>
-            <li><Link to="/contact" className="footer-link" onClick={scrollToTop}>Contact</Link></li>
+            <li><span className="footer-text">Landscaping</span></li>
+            <li><span className="footer-text">Auto Services</span></li>
+            <li><span className="footer-text">Cleaning</span></li>
+            <li><span className="footer-text">Concrete</span></li>
+            <li><span className="footer-text">Construction & Remodeling</span></li>
+            <li><span className="footer-text">Electrical</span></li>
+            <li><span className="footer-text">And More...</span></li>
           </ul>
         </div>
         
         <div className="footer-section">
           <h4 className="footer-heading">Services</h4>
           <ul className="footer-links">
-            <li><span className="footer-text">Web Development</span></li>
-            <li><span className="footer-text">UI/UX Design</span></li>
-            <li><span className="footer-text">E-commerce Solutions</span></li>
-            <li><span className="footer-text">SEO Optimization</span></li>
+            <li><Link to="/web-development" className="footer-link" onClick={scrollToTop}>Web Development</Link></li>
+            <li><Link to="/ui-design" className="footer-link" onClick={scrollToTop}>UI/UX Design</Link></li>
+            <li><Link to="/seo-optimization" className="footer-link" onClick={scrollToTop}>SEO Optimization</Link></li>
+            <li><Link to="/lead-generation" className="footer-link" onClick={scrollToTop}>Lead Generation</Link></li>
           </ul>
         </div>
         
